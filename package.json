@@ -1,0 +1,25 @@
+{
+	"name": "hubot-animemap",
+	"version": "0.0.1",
+	"description": "Hubot-scripts returns AnimePrograms",
+	"main": "animemap.coffee",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/moqada/hubot-animemap.git"
+	},
+	"keywords": [
+		"hubot",
+		"hubot-scripts",
+		"anime",
+		"program"
+	],
+	"author": "aozora0000",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/aozora0000/hubot-animemap/issues"
+	},
+	"homepage": "https://twitter.com/aozora0000"
+}
