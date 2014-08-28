@@ -68,7 +68,7 @@ class AnimeMap
 module.exports = (robot) ->
   robot.respond /animemap( (help))?$/i,(msg) ->
     msg.send "https://github.com/aozora0000/hubot-animemap"
-    
+
   robot.respond /animemap from ([a-z]+)( (today))?/i, (msg) ->
     default_pref = process.env.HUBOT_ANIMEMAP_PREF or "tokyo"
     pref = if msg.match[1] then msg.match[1] else default_pref

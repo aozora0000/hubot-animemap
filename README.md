@@ -30,7 +30,8 @@ Hubot> 【日曜日】 [25:00] サンテレビ「普通の女子校生が【ろ�
 ```
 1. $ npm install hubot-animemap --save
 2. "hubot-animemap" を external-scripts.json に追加
-3. Hubotをリスタートさせる
+3  $ export HUBOT_ANIMEMAP_PREF=[pref]  *下記pref一覧参照(デフォルト動作追加)
+4. Hubotをリスタートさせる
 ```
 
 ## コマンド一覧
